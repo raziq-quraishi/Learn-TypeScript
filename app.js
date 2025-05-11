@@ -17,3 +17,7 @@ var ourTuple;
 ourTuple = [1, true, "Hamid"];
 ourTuple.push("Quraishi");
 console.log(ourTuple);
+var ourReadonlyTuple;
+ourReadonlyTuple = [34, false, "Hello tuple"];
+// ourReadonlyTuple.push("Quraishi") // Error: Property 'push' does not exist on type 'readonly [number, boolean, string]'.
+console.log(ourReadonlyTuple);
