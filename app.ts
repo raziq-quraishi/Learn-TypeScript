@@ -35,5 +35,8 @@ console.log(ourTuple)
 let ourReadonlyTuple: readonly [number, boolean, string]
 
 ourReadonlyTuple=[34,false, "Hello tuple"];
-// ourReadonlyTuple.push("Quraishi") // Error: Property 'push' does not exist on type 'readonly [number, boolean, string]'.
 console.log(ourReadonlyTuple)
+// Named Tuple
+const graph:[x:number, y:number]=[34, 45];
+console.log(graph[0])
+console.log(graph[1])
