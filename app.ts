@@ -23,7 +23,11 @@
 
 //  Readonly Type
 const names : readonly string[]=["Hamid"]
-
-names.push("Ab Raziq")
-names.push(28)
 console.log(names)
+
+// TypeScript Tuple
+
+let ourTuple:[number, boolean, string];
+ourTuple=[1, true, "Hamid"]
+ourTuple.push("Quraishi")
+console.log(ourTuple)

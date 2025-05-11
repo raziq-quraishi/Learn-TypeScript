@@ -11,6 +11,9 @@
 // const names:  string[]=[];
 //  Readonly Type
 var names = ["Hamid"];
-names.push("Ab Raziq");
-names.push(28);
 console.log(names);
+// TypeScript Tuple
+var ourTuple;
+ourTuple = [1, true, "Hamid"];
+ourTuple.push("Quraishi");
+console.log(ourTuple);
