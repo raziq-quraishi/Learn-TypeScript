@@ -36,3 +36,7 @@ let ourReadonlyTuple: readonly [number, boolean, string]
 
 ourReadonlyTuple=[34,false, "Hello tuple"];
 console.log(ourReadonlyTuple)
+// Named Tuple
+const graph:[x:number, y:number]=[34, 45];
+console.log(graph[0])
+console.log(graph[1])
